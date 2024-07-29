@@ -465,17 +465,24 @@
         padding-right: 98px;
     } */
     .banner-content {
-        padding-right: 0px;
+        padding-right: 20px;
     }
     .banner-content > h1 {
-        font-size: 46px;
+        font-size: 39px;
         line-height: 36px;
-        padding-right: 125px;
+        padding-right: 108px;
+        line-height: 40px;
     }
     
     .banner-image .single {
         margin: 0 0px;
         max-width: 87%;
+    }
+    .workout {
+        width: 177px;
+        top: 180px;
+        left: 126px;
+        padding: 10px;
     }
     .run-content h2 {
         font-size: 36px;
