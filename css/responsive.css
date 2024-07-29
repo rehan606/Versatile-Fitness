@@ -3,7 +3,7 @@
 
 @media(min-width:1200px){
     .banner-content {
-        padding-right: 70px;
+        padding-right: 148px;
         margin-top: 60px;
     }
     .form input {
@@ -39,6 +39,7 @@
     }
     .banner-content > h1 {
         font-size: 67px;
+        padding-right: 140px;
     }
     .banner-image {
         margin-right: 40px;
@@ -75,7 +76,7 @@
         align-items: center;
     }
     .banner-content {
-        padding-right: 106px;
+        padding-right: 320px;
         margin-top: 100px;
         margin-left: 40px;
     }
@@ -182,6 +183,7 @@
     .banner-content > h1 {
         font-size: 50px;
         line-height: 50px;
+        padding-right: 160px;
     }
     .btn-primary {
         padding: 16px 35px;
@@ -331,6 +333,7 @@
     .banner-content > h1 {
         font-size: 50px;
         line-height: 50px;
+        padding-right: 160px;
     }
     .btn-primary {
         padding: 16px 35px;
@@ -469,17 +472,21 @@
 
 @media (max-width: 320px){
     .banner-content {
-        padding-right: 123px;
+        padding-right: 0px;
     }
     .banner-content > h1 {
         font-size: 32px;
         line-height: 36px;
+        padding-right: 60px;
     }
     .banner-image .single {
-        margin: 0 29px;
+        margin: 0 0px;
+        max-width: 87%;
     }
-    .single {
-        margin-top: 0;
+   
+    .single>img {
+        width: 100%;
+        
     }
     .tutorial {
         width: 156px;
@@ -489,7 +496,7 @@
     }
     .workout {
         width: 183px;
-        top: 270px;
+        top: 130px;
         left: 73px;
     }
     .workout .text h3 {
