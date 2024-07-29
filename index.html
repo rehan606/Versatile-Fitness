@@ -4,16 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Versatile-Fitness</title>
-        
+        <!-- Main CSS  -->
         <link rel="stylesheet" href="css/style.css">
+        <!-- Responsive CSS  -->
+        <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
         <!-- Header Section Start -->
         
-        <header class="header-area">
+        <header class="header-area ">
             <div class="container">
                 <!-- Navbar  -->
-                <div class="navbar">
+                <div class="navbar ">
                     <div class="logo">
                         <a href="index.html">Fitness</a>
                     </div>
@@ -42,9 +44,11 @@
                             <img src="images/Images 2.png" alt="">
                             <!-- Tutorial Badge -->
                             <div class="tutorial">
-                                <div class="circle"></div>
+                                <div class="circle">
+                                    <!-- <i class="fa fa-play"></i> -->
+                                </div>
                                 <div class="text">
-                                    <h4>350+</h4>
+                                    <h4>550+</h4>
                                     <p>Video tutorial</p>
                                 </div>
                             </div>
@@ -65,7 +69,7 @@
 
 
         <!-- Change Your Habits Section Start -->
-         <section class="habits-aria">
+         <section class="habits-aria ">
             <div class="container">
                 <div class="section-heder">
                     <h2>Change Your Habits</h2>
@@ -121,7 +125,7 @@
 
 
         <!-- Run and Extra mile Section Start -->
-        <section class="run-area">
+        <section class="run-area ">
             <div class="container">
                 <div class="run-wrap">
                     <div class=" run-content">
@@ -140,7 +144,7 @@
         <!-- Run and Extra mile Section End -->
 
         <!-- BMI Section Start -->
-        <section class="bmi-heading-area">
+        <section class="bmi-heading-area ">
             <div class="container">
                 <!-- BMI headding  -->
                 <div class="bmi-heading section-heder">
@@ -185,16 +189,16 @@
                         <h4 class="cal-head">Calculate your BMI</h4>
                         <p class="paragraph">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
 
-                        <form action="#" class="form">
+                        <form action="#" id="form" class="form">
                             <div class="form-wrap">
                                 <input type="text" placeholder="Height/cm">
                                 <input type="text" placeholder="Weight/kg">
                                 <input type="text" placeholder="Age">
                                 <!-- Gender -->
                                 <select>
-                                    <option value="sex">Sex</option>
-                                    <option value="male">Male</option>
-                                    <option value="female">Female</option>
+                                    <option value="sex" name="Gender">Sex</option>
+                                    <option value="male" name="male" >Male</option>
+                                    <option value="female" name="female">Female</option>
                                 </select>
                                 <!-- Activity -->
                                 <select class="activity">
@@ -212,8 +216,66 @@
         </section>
         <!-- BMI Section End -->
 
+        <!-- Membership Plan section start  -->
+        <section class="membership-area">
+            <div class="container">
+                <div class="membership-header section-heder">
+                    <h2>Membership</h2>
+                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                </div>
+
+                <div class="price-plan-wrap">
+                    <div class="price_item">
+                        <h3>Regular Membership</h3>
+                        <div class="price">
+                            <h4>$ 10/Month</h4>
+                        </div>
+                        <div class="pacility">
+                            <a href="#">Free Tutorials</a>
+                            <a href="#">Aerobik Programmes</a>
+                            <a href="#">Trainer Support</a>
+                            <a href="#">X</a>
+                            <a href="#">X</a>
+                        </div>
+                        <a href="#" class="button" >Join now</a>
+                    </div>
+                    <!-- Price Item -3  -->
+                    <div class="price_item">
+                        <h3>Professional Membership</h3>
+                        <div class="price">
+                            <h4>$ 15/Month</h4>
+                        </div>
+                        <div class="pacility">
+                            <a href="#">Free Tutorials</a>
+                            <a href="#">Aerobik Programmes</a>
+                            <a href="#">Trainer Support</a>
+                            <a href="#">Fitness Orientation</a>
+                            <a href="#">X</a>
+                        </div>
+                        <a href="#" class="button" >Join now</a>
+                    </div>
+                    <!-- Price Item -3  -->
+                    <div class="price_item">
+                        <h3>Standard Membership</h3>
+                        <div class="price">
+                            <h4>$ 20/Month</h4>
+                        </div>
+                        <div class="pacility">
+                            <a href="#">Free Tutorials</a>
+                            <a href="#">Aerobik Programmes</a>
+                            <a href="#">Trainer Support</a>
+                            <a href="#">Fitness Orientation</a>
+                            <a href="#">Morning & Evening Batches</a>
+                        </div>
+                        <a href="#" class="button" >Join now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Membership Plan section End  -->
+
         <!-- Team Section Start -->
-        <section class="team-area">
+        <section class="team-area ">
             <div class="container t-padding">
                 <div class="team-header section-heder">
                     <h2>Meet Our Team</h2>
@@ -287,7 +349,7 @@
         <!-- Team Section End -->
 
         <!-- Footer Section Start -->
-        <footer class="footer-area">
+        <footer class="footer-area ">
             <div class="container">
                 <div class="footer-wrap">
                     <div class="footer-logo">

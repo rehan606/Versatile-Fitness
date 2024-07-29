@@ -1,30 +1,33 @@
 
-/*------------------------------------
+/*----------------------------------
 Template Name: Versatile-Fitness- HTML Template
 Author: Rehan
 Designer: Rehan Khan
-Designer GIthub Url: https://github.com/rehan606
-Designer GIthub Url: https://www.facebook.com/kh.rehan207
+Designer Github Profile Url: https://github.com/rehan606
+
+Designer Facebook Profile Url: https://www.facebook.com/kh.rehan207
+
 Contact No: 01822-18 22 07
-Description: Versatile-Fitness HTML5 ------ Templete
+Description: Versatile-Fitness HTML5 and CSS3 Templete
+
 Version: 1.00
+:::::::::::::::::::::::
 
 Table of Content :::::
 ----------------------
 01. Default CSS
 02. Header
-03. 
-04. 
+03. Change Your Habits
+04. Run and Extra mile
 05. 
-06. 
-07. 
-08. 
-09. 
-10. 
----------------- */
+06. BMI Section
+07. Team Section
+08. Footer Section
+
+----------------------- */
 
 
-/*Miama Inter Poppins & WorkSans Font */
+/* Inter & Miama Font */
 
 /* Inter Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
@@ -32,14 +35,14 @@ Table of Content :::::
 /* Miama Font  */
 @import url('https://fonts.cdnfonts.com/css/miama');
 
-
 @font-face {
     font-family: 'Miama', sans-serif;
     src: url(../fonts/Miama.otf) format('otf'),
          url(../fonts/Miama.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
-  }
+}
+
 
 /* 01. Default css Start*/
 
@@ -72,9 +75,9 @@ body {
     font-family: var(--body-font);
     font-weight: normal;
     font-style: normal;
+    overflow-x: hidden;
 }
-/* Full body width 1440px container size 1060px.
-1060px = 77.61%  */
+
 .container{
     /* width: 1060px; */
     width: 77.61%;
@@ -140,7 +143,7 @@ p {
     color: var(--paragraph-color);
     font-family: var(--body-font);
 }
-/* Primary button  */
+/* Primary button / Common Button  */
 .btn-primary {
     padding: 16px 40px;
     border-radius: 30px;
@@ -170,6 +173,8 @@ p {
 /* Default css end ===========================
 ============================================*/
 
+
+/* :::::::::::::::Main CSS:::::::::::::::::  */
 
 /* 02. Header css Start*/
 .header-area{
@@ -202,7 +207,7 @@ p {
     padding: 3px 5px;
 }
 .menu .nev-items .nav-link{
-    padding: 20px 40px;
+    padding: 12px 40px;
     transition: 0.5s ease-in-out;
 }
 .menu .nev-items .nav-link:hover{
@@ -220,13 +225,13 @@ p {
 
 /* Banner  */
 .banner{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
 }
 .banner-content{
-    width: 70%;
-    padding-right: 240px;
+    grid-column: 1 / span 2;
+    padding-right: 207px;
 }
 .banner-content>h1{
     color: var(--heading-color);
@@ -253,7 +258,7 @@ p {
     border-radius: 5px;
     padding: 15px;
 
-   position: absolute;
+    position: absolute;
     bottom: 70px;
     left: -70px;
 
@@ -294,9 +299,7 @@ p {
     backdrop-filter: blur(4.3px);
     -webkit-backdrop-filter: blur(4.3px);
     border: 1px solid rgba(255, 255, 255, 0.1);
-
 }
-
 /* 02. css end ========================*/
 
 /* 03. Change Your Habits css Start*/
@@ -305,7 +308,8 @@ p {
 .run-area, 
 .training-area,
 .bmi-heading-area,
-.team-area {
+.team-area,
+.membership-area {
     max-width: 1440px;
     background-color: #000000; 
     margin: 0 auto;
@@ -352,8 +356,8 @@ p {
     border-radius: 50%;
     padding: 3px;
     margin-bottom: 20px;
-
 }
+
 .habit-box .box-image img{
     border-radius: 50%;
     width: 100%;
@@ -404,15 +408,13 @@ p {
     background-color: transparent;
     
 }
-
-
 .run-image img{
     width: 100%;
 }
 /* 04. css end ========================*/
 
-
 /* 05. BMI- css Start*/
+
 
 .bmi-heading{
     text-align: left;
@@ -426,7 +428,6 @@ p {
     background-color: #222222; 
     margin: 0 auto;
     padding: 50px 0;
-    
 }
 .bmi-wrap{
     display: grid;
@@ -453,7 +454,6 @@ p {
     font-weight: normal;
     text-align-last: left;
 }
-
 .calculator .cal-head{
     margin-bottom: 10px !important;
 }
@@ -472,7 +472,6 @@ p {
     border: none;
     color: var(--primary-color);
 }
-
 .form select{
     padding: 10px 20px;
     background-color: #383838;
@@ -501,7 +500,87 @@ p {
 }
 /* 05. css end ========================*/
 
-/* 06. Team css Start*/
+/* 06. Membership Plan- css Start*/
+.price-plan-wrap{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 20px;
+}
+.price_item{
+    background-color: #222222;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.price_item h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #222 ;
+    color: #ffffff;
+    padding: 20px 0;
+    transition: .4s;
+}
+.price_item .price h4 {
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+.price_item .price {
+    background: url(../images/pricing-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+}
+.price_item .price:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.767);
+    z-index: -1;
+}
+.price_item .pacility {
+    background: #b9b9b9;
+    padding: 25px 0;
+}
+
+.price_item .pacility a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    margin: 20px 0;
+}
+.price_item .button {
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #000;
+    color: #FFFFFF;
+    padding: 10px 0;
+    transition: .4s;
+    border-bottom: 1px solid #ddd;
+}
+.price_item:hover h3,
+.price_item:hover .button{
+    background: #222 ;
+    color: #fff;
+}
+.price_item .button:hover {
+    background: #e23e38;
+}
+
+/* 06. css end ========================*/
+
+
+/* 07. Team css Start*/
 .t-padding{
     padding-bottom: 80px;
 }
@@ -528,12 +607,12 @@ p {
     left: 0;
     bottom: 4px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.2);
-    /* border-radius: 16px; */
+    /* background: rgba(255, 255, 255, 0.2); */
+    
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
 
     padding: 10px 20px;
     border-radius: 10px;
@@ -544,10 +623,9 @@ p {
     color: var(--heading-color);
 }
 
+/* 07. css end ========================*/
 
-/* 06. css end ========================*/
-
-/* 07. Footer css Start*/
+/* 08. Footer css Start*/
 .footer-area{
     max-width: 1440px;
     background-color: #191919; 
@@ -590,4 +668,8 @@ p {
     padding: 20px 0;
     text-align: center;
 }
-/* 07. css end ========================*/
+/* 08. css end ========================*/
+
+/* Thank You */
+
+
