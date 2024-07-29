@@ -487,6 +487,16 @@
     .run-content h2 {
         font-size: 36px;
     }
+    .bmi-chart table, th, td {
+        padding: 15px 16px;
+    }
+    .paragraph {
+        padding-right: 70px;
+    }
+    .form input, .form select {
+        padding: 15px 1px 20px 15px;
+        width: 100%;
+    }
     
 }
 
