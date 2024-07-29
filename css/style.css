@@ -222,6 +222,15 @@ p {
     color: var(--primary-color);
     font-size: 18px;
 }
+/* hamburger Menu Bar  */
+.hamburger{
+    display: none;
+}
+.hamburger>i{
+    color: var(--heading-color);
+    font-size: 24px;
+    cursor: pointer;
+}
 
 /* Banner  */
 .banner{

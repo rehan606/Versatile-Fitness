@@ -160,8 +160,13 @@
     .navbar {
         padding-top: 30px;
     }
-    .menu{
+    .menu>.nev-items{
         display: none;
+    }
+
+    /* hamburger menu bar  */
+    .hamburger{
+        display: block;
     }
     
     /* Banner  */
@@ -306,10 +311,13 @@
     .navbar {
         padding-top: 30px;
     }
-    .menu{
+    .menu>.nev-items{
         display: none;
     }
-    
+     /* hamburger menu bar  */
+     .hamburger{
+        display: block;
+    }
     /* Banner  */
     .banner {
         display: grid;
