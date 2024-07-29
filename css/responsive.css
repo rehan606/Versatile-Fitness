@@ -461,8 +461,21 @@
 }
 
 @media (max-width:480px){
-    .banner-content {
+    /* .banner-content {
         padding-right: 98px;
+    } */
+    .banner-content {
+        padding-right: 0px;
+    }
+    .banner-content > h1 {
+        font-size: 46px;
+        line-height: 36px;
+        padding-right: 125px;
+    }
+    
+    .banner-image .single {
+        margin: 0 0px;
+        max-width: 87%;
     }
     .run-content h2 {
         font-size: 36px;
