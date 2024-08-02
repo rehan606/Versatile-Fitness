@@ -14,7 +14,9 @@
 
 <p align="center">
 
-<img src="https://ibb.co/bJqpvK1" alt="Random Image" width="400px">
+
+<img src="https://i.ibb.co/Lx3n6qJ/screencapture-127-0-0-1-5500-2024-07-30-00-10-08.png" alt="screencapture-127-0-0-1-5500-2024-07-30-00-10-08" border="0" width="400px">
+
 </p>
  
 <h2 id="technologies">💻 Technologies</h2>
