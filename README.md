@@ -14,7 +14,8 @@
 
 <p align="center">
 
-<img src="https://i.ibb.co/Th9wBfY/screencapture-127-0-0-1-5500-2024-08-07-22-21-24.png" alt="screencapture-127-0-0-1-5500-2024-08-07-22-21-24" border="0" width="400px">
+
+<img src="https://i.ibb.co/Lx3n6qJ/screencapture-127-0-0-1-5500-2024-07-30-00-10-08.png" alt="screencapture-127-0-0-1-5500-2024-07-30-00-10-08" border="0" width="400px">
 
 </p>
  
