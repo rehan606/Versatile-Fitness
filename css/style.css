@@ -326,7 +326,8 @@ p {
 .training-area,
 .bmi-heading-area,
 .team-area,
-.membership-area {
+.membership-area,
+.training-area {
     max-width: 1440px;
     background-color: #000000; 
     margin: 0 auto;
@@ -429,8 +430,84 @@ p {
     width: 100%;
 }
 /* 04. css end ========================*/
+/* 05 Training And Exersises Start*/
 
-/* 05. BMI- css Start*/
+.training-area .section-heder {
+    margin: 0 0;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.exersise-content {
+    display: grid;
+    grid-template-columns: 250px 505px 290px;
+    
+}
+.content-2 {
+    display: grid;
+    grid-template-columns: 425px 280px 340px;
+    
+}
+
+.exersise-content .exersise-image {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.exersise-content .exersise-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(6, 255, 210, 0.5);
+    
+    display: flex;
+    align-items: end;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+.exersise-content .exersise-image:hover .overlay{
+    background: none;
+    
+}
+.exersise-content .exersise-image .red-overly{  
+    background: rgba(255, 0, 0, 0.3);
+    align-items: start;
+}
+.exersise-content .exersise-image .black-overly{  
+    background: rgba(0, 0, 0, 0.5);
+}
+.content-2 .exersise-image .black-overly{  
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: end;
+    align-items: start;
+}
+.exersise-content .exersise-image .green-overly{  
+    background: rgba(66, 255, 0, 0.3);
+}
+.exersise-content .exersise-image .blue-overly{  
+    background: rgba(0, 71, 255, 0.3);
+}
+.exersise-content .exersise-image .overlay p{
+    color: var(--heading-color);
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 220px;
+    padding: 20px;
+}
+
+.exersise-content .exersise-image img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* 05 Training And Exersises End*/
+
+
+/* 06. BMI- css Start*/
 
 
 .bmi-heading{
@@ -515,9 +592,9 @@ p {
 .form .cal-btn:hover{
     background-color: transparent;
 }
-/* 05. css end ========================*/
+/* 06. css end ========================*/
 
-/* 06. Membership Plan- css Start*/
+/* 07. Membership Plan- css Start*/
 .price-plan-wrap{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -595,10 +672,10 @@ p {
     background: #000;
 }
 
-/* 06. css end ========================*/
+/* 07. css end ========================*/
 
 
-/* 07. Team css Start*/
+/* 08. Team css Start*/
 .t-padding{
     padding-bottom: 80px;
 }
@@ -641,9 +718,9 @@ p {
     color: var(--heading-color);
 }
 
-/* 07. css end ========================*/
+/* 08. css end ========================*/
 
-/* 08. Footer css Start*/
+/* 09. Footer css Start*/
 .footer-area{
     max-width: 1440px;
     background-color: #191919; 
@@ -686,7 +763,7 @@ p {
     padding: 20px 0;
     text-align: center;
 }
-/* 08. css end ========================*/
+/* 09. css end ========================*/
 
 /* Thank You */
 
