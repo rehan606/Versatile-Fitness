@@ -13,8 +13,7 @@
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-
-<img src="https://i.ibb.co/YRxVhFS/screencapture-127-0-0-1-5500-2024-08-07-21-38-53.png" alt="screencapture-127-0-0-1-5500-2024-08-07-21-38-53" border="0" width="400px">
+<img src="https://i.ibb.co/Th9wBfY/screencapture-127-0-0-1-5500-2024-08-07-22-21-24.png" alt="screencapture-127-0-0-1-5500-2024-08-07-22-21-24" border="0" width="400px">
 
 </p>
  
