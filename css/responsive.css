@@ -328,6 +328,7 @@
 
 }
 
+
 @media screen and (max-width:575px){
     .navbar {
         padding-top: 30px;
@@ -488,9 +489,7 @@
 }
 
 @media (max-width:480px){
-    /* .banner-content {
-        padding-right: 98px;
-    } */
+    
     .banner-content {
         padding-right: 55px;
     }
