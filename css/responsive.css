@@ -301,11 +301,11 @@
     }
     /* pricing */
     .price-plan-wrap {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     /* team  */
     .team-content-wrap {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr 1fr;
     }
 
     /* Footer  */
